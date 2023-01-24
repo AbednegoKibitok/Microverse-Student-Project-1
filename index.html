@@ -251,27 +251,11 @@
         </section>
       </footer>
       <section class="form">
-        <form action = "#">
-          Your name
-          <br>
-          <input type = "text" id="name" name = "full_name" maxlength = "30" />
-          <br>
-        </form>
-        <br>
-        <form action = "#">
-          Your email
-          <br>
-          <input type = "email" id="email" name = "email_id" />
-          <br>
-        </form>
-        <br>
-        <form id="feedback_form">
-          <label for="label1"></label>
-          <textarea id="textarea" name="textarea" maxlength="500" >
-        </form>
-        <br>
-        <form action="/action_page.php">
-          <input type="submit" value="Start Collaboration">
+        <form action="https://formspree.io/f/{form_id}" method="post">
+          <input type="text" id="name" name="full_name" maxlength="30" placeholder="Your name" required />
+          <input type="email" id="email" name="email_id" placeholder="Your email" required/>
+          <textarea name="testarea" id="testarea" placeholder="Enter your message here..."  maxlength="500"></textarea>
+          <input type="submit" name="submit" id="submit" value="Start Collaboration">
         </form> 
       </section>
     </section>
