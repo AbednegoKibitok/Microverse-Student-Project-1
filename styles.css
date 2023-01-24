@@ -380,3 +380,8 @@ footer {
   display: flex;
   justify-content: space-around;
 }
+
+.form {
+  margin-top: 230px;
+  margin-left: 16px;
+}
