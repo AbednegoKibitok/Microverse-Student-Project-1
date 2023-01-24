@@ -306,3 +306,77 @@ main {
   margin-left: 180px;
   margin-top: 187px;
 }
+
+.formsection {
+  display: grid;
+  grid-template-columns: 320px;
+  grid-template-rows: 813px;
+  margin-top: 16px;
+  border: 2px solid #00f;
+}
+
+.getstarted {
+  position: absolute;
+  width: 249px;
+  height: 50px;
+  left: 16px;
+  margin-top: 30px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1A2236;
+}
+
+main {
+  position: absolute;
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  margin-top: 130px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1A2236;
+}
+
+footer {
+  position: absolute;
+  width: 320px;
+  height: 150px;
+  left: 0;
+  margin-top: 660px;
+  background: #1A2236;
+}
+
+.pa {
+  position: absolute;
+  width: 127px;
+  height: 24px;
+  left: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92DCDC;
+  margin-top: 30px;
+}
+
+.arrowbox {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 140px;
+  margin-top: 32px;
+}
+
+.socialmediaicons {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+}
