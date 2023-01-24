@@ -190,11 +190,13 @@ body {
 }
 
 .container3 {
+  grid-template-columns: 288px;
+  grid-template-rows: 278px;
   background-color: #fff;
-  width: 288px;
-  height: 278px;
   margin-left: 16px;
-  top: 2842px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  
 }
 
 .about {
@@ -209,7 +211,7 @@ body {
   color: #1A2236;
 }
 
-main {
+.lorem {
   position: absolute;
   width: 288px;
   height: 126px;
@@ -224,19 +226,26 @@ main {
 
 .button_2 {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 16px; 
+  align-items: center;
+  gap: 16px;
+  flex-direction: row;
   background-color: #1a2236;
   color: #fff;
   cursor: pointer;
   border: 1px solid #fff;
   margin-top: 210px;
   width: 288px;
+  height: 50px;
 }
 
 .button_2:hover {
   border: 2px solid #00f;
+}
+
+.pa1 {
+  color: #fff;
+  font-size: large;
 }
 
 .container4 {
@@ -312,7 +321,6 @@ main {
   grid-template-columns: 320px;
   grid-template-rows: 813px;
   margin-top: 16px;
-  border: 2px solid #00f;
 }
 
 .getstarted {
@@ -409,5 +417,9 @@ form textarea {
 form #submit {
   color: #fff;
   background: #1A2236;
+  cursor: pointer;
 }
 
+form #submit:hover {
+  border: 5px solid #00f;
+}
