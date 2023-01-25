@@ -1,9 +1,68 @@
-@media only screen and (max-width: 768px) and (min-width: 375px) {
-  body {
-    position: relative;
-    background: #fff;
-    box-sizing: border-box;
+@media only screen and (min-width: 768px) {
+  #navigation_links {
+    text-decoration: none;
   }
+
+  .navigation_links {
+    border: 2px solid #00f;
+  }
+
+  #nav_links {
+    list-style-type: none;
+    color: #1a2236;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #nav_links:hover {
+    border: 2px solid #00f;
+  }
+
+  .nav_links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  #navigation_links {
+    cursor: pointer;
+  }
+
+  .header_bar {
+    display: none;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+
+  .image-dots {
+    width: 175px;
+    width: 175px;
+  }
+
+  .image-geometry_11 {
+    position: absolute;
+    width: 702px;
+    height: 877px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation_links {
+    display: none;
+  }
+}
+
+body {
+  position: relative;
+  background: #fff;
+  box-sizing: border-box;
 }
 
 .navigation_bars {
@@ -306,13 +365,14 @@
   display: grid;
   grid-template-columns: min(320px);
   margin-top: 16px;
+  background: #f9f9fa;
 }
 
 .getstarted {
   position: absolute;
   min-width: 249px;
   height: 50px;
-  left: 16px;
+  margin-left: 16px;
   margin-top: 80px;
   font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -326,7 +386,7 @@
   position: absolute;
   min-width: 288px;
   height: 63px;
-  left: 16px;
+  margin-left: 16px;
   margin-top: 130px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -348,7 +408,7 @@ footer {
 .pa {
   position: absolute;
   min-width: 127px;
-  left: 16px;
+  margin-left: 16px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -367,6 +427,7 @@ footer {
 
 .socialmediaicons {
   margin-top: 90px;
+  margin-bottom: 16px;
   display: flex;
   justify-content: space-around;
 }
@@ -374,6 +435,7 @@ footer {
 .form {
   margin-top: 230px;
   margin-left: 16px;
+  margin-right: 16px;
 }
 
 .form form {
