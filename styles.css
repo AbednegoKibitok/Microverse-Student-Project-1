@@ -8,8 +8,7 @@
 
 .navigation_bars {
   position: absolute;
-  width: 20px;
-  height: 14px;
+  min-width: 20px;
   left: 284px;
   top: 19px;
   background: #fff;
@@ -21,8 +20,7 @@
 
 .image_geometry_1 {
   position: absolute;
-  width: 111px;
-  height: 74px;
+  min-width: 111px;
   margin-left: 0;
   margin-top: 0;
 }
@@ -33,8 +31,7 @@
 
 .name {
   position: absolute;
-  width: 220px;
-  height: 100px;
+  min-width: 220px;
   left: 16px;
   top: 74px;
   font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
@@ -47,8 +44,7 @@
 
 .content {
   position: absolute;
-  width: 288px;
-  height: 126px;
+  min-width: 288px;
   left: 16px;
   top: 224px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -62,8 +58,7 @@
 
 .button1 {
   position: absolute;
-  width: 288px;
-  height: 50px;
+  min-width: 288px;
   left: 16px;
   top: 390px;
   background: #1a2236;
@@ -80,16 +75,14 @@
 
 .image_geometry_2 {
   position: absolute;
-  width: 320px;
-  height: 160px;
+  min-width: 320px;
   margin-left: 0;
   top: 472px;
 }
 
 .projects {
   position: absolute;
-  width: 181px;
-  height: 50px;
+  min-width: 181px;
   left: 16px;
   top: 632px;
   font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
@@ -102,13 +95,12 @@
 
 .container1 {
   display: grid;
-  grid-template-columns: 320px;
+  grid-template-columns: min(320px);
   background-color: #fff;
 }
 
 .box1 {
-  width: 320px;
-  height: 186px;
+  min-width: 320px;
   margin-top: 754px;
   background-color: inherit;
   display: grid;
@@ -117,9 +109,8 @@
 
 .box2 {
   display: grid;
+  grid-template-columns: min(320px);
   background: #1a2236;
-  left: 20px;
-  top: 960px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -183,16 +174,15 @@
 }
 
 .box6 {
-  width: 320px;
-  height: 186px;
+  min-width: 320px;
   background-color: inherit;
   display: grid;
   place-items: center;
 }
 
 .container3 {
-  grid-template-columns: 288px;
-  grid-template-rows: 278px;
+  grid-template-columns: min(288px);
+  grid-template-rows: min(278px);
   background-color: #fff;
   margin-left: 16px;
   margin-top: 32px;
@@ -201,8 +191,7 @@
 
 .about {
   position: absolute;
-  width: 134px;
-  height: 50px;
+  min-width: 134px;
   font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -213,8 +202,7 @@
 
 .lorem {
   position: absolute;
-  width: 288px;
-  height: 126px;
+  min-width: 288px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -235,8 +223,7 @@
   cursor: pointer;
   border: 1px solid #fff;
   margin-top: 210px;
-  width: 288px;
-  height: 50px;
+  min-width: 288px;
 }
 
 .button_2:hover {
@@ -250,8 +237,7 @@
 
 .container4 {
   display: grid;
-  grid-template-columns: 289px;
-  grid-template-rows: 289px 289px 289px;
+  grid-template-columns: min(289px);
   gap: 16px;
   margin-left: 16px;
 }
@@ -301,31 +287,30 @@
 .hash1 {
   position: absolute;
   margin-left: 187px;
-  margin-top: 187px;
+  margin-top: 114px;
 }
 
 .hash2 {
   position: absolute;
-  margin-left: 187px;
-  margin-top: 187px;
+  margin-left: 190px;
+  margin-top: 150px;
 }
 
 .hash3 {
   position: absolute;
   margin-left: 180px;
-  margin-top: 187px;
+  margin-top: 140px;
 }
 
 .formsection {
   display: grid;
-  grid-template-columns: 320px;
-  grid-template-rows: 830px;
+  grid-template-columns: min(320px);
   margin-top: 16px;
 }
 
 .getstarted {
   position: absolute;
-  width: 249px;
+  min-width: 249px;
   height: 50px;
   left: 16px;
   margin-top: 80px;
@@ -339,7 +324,7 @@
 
 .main {
   position: absolute;
-  width: 288px;
+  min-width: 288px;
   height: 63px;
   left: 16px;
   margin-top: 130px;
@@ -354,17 +339,15 @@
 
 footer {
   position: absolute;
-  width: 320px;
-  height: 150px;
-  margin-top: 4630px;
+  min-width: 320px;
+  margin-top: 4400px;
   margin-left: 0;
   background: #1a2236;
 }
 
 .pa {
   position: absolute;
-  width: 127px;
-  height: 24px;
+  min-width: 127px;
   left: 16px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -377,8 +360,7 @@ footer {
 
 .arrowbox {
   position: absolute;
-  width: 22px;
-  height: 22px;
+  min-width: 22px;
   left: 140px;
   margin-top: 32px;
 }
@@ -405,13 +387,13 @@ footer {
 }
 
 form input {
-  width: 288px;
-  height: 52px;
+  min-width: 288px;
+  min-height: 52px;
 }
 
 form textarea {
-  width: 288px;
-  height: 112px;
+  min-width: 288px;
+  min-height: 112px;
 }
 
 form #submit {
