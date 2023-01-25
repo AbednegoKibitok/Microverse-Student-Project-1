@@ -117,9 +117,9 @@ You can deploy this project using:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/AbednegoKibitok)
-- Twitter: [@twitterhandle](https://twitter.com/abedysongol)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abednego-kibitok-58717517a/)
+- GitHub: [@AbednegoKibitok](https://github.com/AbednegoKibitok)
+- Twitter: [@abedysongol](https://twitter.com/abedysongol)
+- LinkedIn: [Abednego Kibitok](https://www.linkedin.com/in/abednego-kibitok-58717517a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

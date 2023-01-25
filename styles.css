@@ -1,14 +1,9 @@
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   body {
-    background-color: #fff;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
   }
-}
-
-body {
-  position: relative;
-  width: 320px;
-  background: #fff;
-  box-sizing: border-box;
 }
 
 .navigation_bars {
@@ -107,6 +102,7 @@ body {
 
 .container1 {
   display: grid;
+  grid-template-columns: 320px;
   background-color: #fff;
 }
 
@@ -360,8 +356,8 @@ footer {
   position: absolute;
   width: 320px;
   height: 150px;
-  left: 0;
   margin-top: 4630px;
+  margin-left: 0;
   background: #1a2236;
 }
 
@@ -425,5 +421,5 @@ form #submit {
 }
 
 form #submit:hover {
-  border: 5px solid #00f;
+  border: 2px solid #00f;
 }
