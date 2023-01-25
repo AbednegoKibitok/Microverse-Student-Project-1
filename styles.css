@@ -335,7 +335,7 @@ body {
   color: #1a2236;
 }
 
-main {
+.main {
   position: absolute;
   width: 288px;
   height: 63px;
@@ -355,7 +355,7 @@ footer {
   width: 320px;
   height: 150px;
   left: 0;
-  margin-top: 660px;
+  margin-top: 4630px;
   background: #1a2236;
 }
 
