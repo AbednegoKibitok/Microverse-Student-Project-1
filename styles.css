@@ -1,9 +1,209 @@
 @media only screen and (max-width: 768px) {
   body {
+    background-color: #fff;
     position: relative;
-    background: #fff;
     box-sizing: border-box;
   }
+
+  #navigation_links {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .formsection {
+    display: none;
+  }
+
+  .navigation_links {
+    text-align: center;
+  }
+
+  #nav_links {
+    list-style-type: none;
+    color: #1a2236;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #nav_links:hover {
+    border: 2px solid #808080;
+  }
+
+  .nav_links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .header_bar {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    min-height: 877px;
+  }
+
+  #hero {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nameds {
+    position: absolute;
+    min-width: 484px;
+    margin-left: 160px;
+    margin-top: 150px;
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    color: #1a2236;
+  }
+
+  .contentds {
+    position: absolute;
+    min-width: 484px;
+    margin-left: 160px;
+    margin-top: 580px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+  }
+
+  .projects {
+    display: none;
+  }
+
+  .image_geometry_2 {
+    display: none;
+  }
+
+  .button1ds {
+    position: absolute;
+    min-width: 288px;
+    margin-left: 160px;
+    margin-top: 750px;
+    background: #1a2236;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .image-dots {
+    margin-left: 578px;
+    margin-top: 877px;
+    min-width: 205px;
+  }
+
+  .image-geometry_11 {
+    min-width: 702px;
+    min-height: 877px;
+  }
+
+  .dsdashboard {
+    margin-top: 100px;
+    border-image: fill;
+  }
+
+  .desktop3-1 {
+    display: flex;
+  }
+
+  .desktop3-2 {
+    display: flex;
+  }
+
+  .desktop-ds {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: space-around;
+  }
+
+  .card4ds {
+    margin-left: 68px;
+    margin-top: 68px;
+  }
+
+  .formsectionds {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .image_geometry_1ds {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .image_geometry_2ds {
+    margin-top: 300px;
+    margin-right: 0;
+  }
+
+  .footerds {
+    background: #1a2236;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .pa4 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #92dcdc;
+  }
+
+  .socialmediaiconsds_4 {
+    margin-top: 20px;
+  }
+
+  .getmyresumeds {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .bodyds {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mainds {
+    display: none;
+  }
+
+  .navigation_links {
+    display: none;
+  }
+}
+
+body {
+  position: relative;
+  background: #fff;
+  box-sizing: border-box;
 }
 
 .navigation_bars {

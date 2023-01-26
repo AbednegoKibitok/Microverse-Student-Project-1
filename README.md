@@ -26,6 +26,7 @@
 
 > This is my Portfolio. It contains everything that I am capable of doing as a software developer.
 > The contact form section enables the user to enter personal information.
+>Desktop version of the website
 
 **[MY PORTFOLIO PROJECT]** is a website that contains all about me as a software developer.
 
