@@ -1,14 +1,14 @@
-body {
-  position: relative;
-  width: 320px;
-  background: #fff;
-  box-sizing: border-box;
+@media only screen and (max-width: 768px) {
+  body {
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+  }
 }
 
 .navigation_bars {
   position: absolute;
-  width: 20px;
-  height: 14px;
+  min-width: 20px;
   left: 284px;
   top: 19px;
   background: #fff;
@@ -20,8 +20,7 @@ body {
 
 .image_geometry_1 {
   position: absolute;
-  width: 111px;
-  height: 74px;
+  min-width: 111px;
   margin-left: 0;
   margin-top: 0;
 }
@@ -32,25 +31,23 @@ body {
 
 .name {
   position: absolute;
-  width: 220px;
-  height: 100px;
+  min-width: 220px;
   left: 16px;
   top: 74px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .content {
   position: absolute;
-  width: 288px;
-  height: 126px;
+  min-width: 288px;
   left: 16px;
   top: 224px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -61,8 +58,7 @@ body {
 
 .button1 {
   position: absolute;
-  width: 288px;
-  height: 50px;
+  min-width: 288px;
   left: 16px;
   top: 390px;
   background: #1a2236;
@@ -79,19 +75,17 @@ body {
 
 .image_geometry_2 {
   position: absolute;
-  width: 320px;
-  height: 160px;
+  min-width: 320px;
   margin-left: 0;
   top: 472px;
 }
 
 .projects {
   position: absolute;
-  width: 181px;
-  height: 50px;
+  min-width: 181px;
   left: 16px;
   top: 632px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -101,12 +95,12 @@ body {
 
 .container1 {
   display: grid;
+  grid-template-columns: min(320px);
   background-color: #fff;
 }
 
 .box1 {
-  width: 320px;
-  height: 186px;
+  min-width: 320px;
   margin-top: 754px;
   background-color: inherit;
   display: grid;
@@ -115,10 +109,9 @@ body {
 
 .box2 {
   display: grid;
+  grid-template-columns: min(320px);
   background: #1a2236;
-  left: 20px;
-  top: 960px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -138,7 +131,7 @@ body {
 .button_1 {
   background: #98dede;
   top: 998px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -150,19 +143,18 @@ body {
 
 .box4 {
   background-color: #1a2236;
-
 }
 
 .project {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px; 
-  background-color: #1a2236;
+  gap: 16px;
   color: #fff;
   cursor: pointer;
   border: 1px solid #fff;
   margin: 18px;
+  background-color: #1a2236;
 }
 
 .project:hover {
@@ -182,67 +174,70 @@ body {
 }
 
 .box6 {
-  width: 320px;
-  height: 186px;
+  min-width: 320px;
   background-color: inherit;
   display: grid;
   place-items: center;
 }
 
 .container3 {
+  grid-template-columns: min(288px);
+  grid-template-rows: min(278px);
   background-color: #fff;
-  width: 288px;
-  height: 278px;
   margin-left: 16px;
-  top: 2842px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .about {
   position: absolute;
-  width: 134px;
-  height: 50px;
-  font-family: 'Playfair Display';
+  min-width: 134px;
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
-  color: #1A2236;
+  color: #1a2236;
 }
 
-main {
+.lorem {
   position: absolute;
-  width: 288px;
-  height: 126px;
-  font-family: 'Poppins';
+  min-width: 288px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  color: #1A2236;
+  color: #1a2236;
   margin-top: 60px;
 }
 
 .button_2 {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 16px; 
+  align-items: center;
+  gap: 16px;
+  flex-direction: row;
   background-color: #1a2236;
   color: #fff;
   cursor: pointer;
   border: 1px solid #fff;
   margin-top: 210px;
-  width: 288px;
+  min-width: 288px;
 }
 
 .button_2:hover {
   border: 2px solid #00f;
 }
 
+.pa1 {
+  color: #fff;
+  font-size: large;
+}
+
 .container4 {
   display: grid;
-  grid-template-columns: 289px;
-  grid-template-rows: 289px 289px 289px;
+  grid-template-columns: min(289px);
   gap: 16px;
   margin-left: 16px;
 }
@@ -250,7 +245,7 @@ main {
 .card1 {
   background: #1c528a;
   color: #fff;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -264,7 +259,7 @@ main {
 .card2 {
   background: #e2505c;
   color: #fff;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -278,7 +273,7 @@ main {
 .card3 {
   background: #febf52;
   color: #fff;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -292,17 +287,124 @@ main {
 .hash1 {
   position: absolute;
   margin-left: 187px;
-  margin-top: 187px;
+  margin-top: 114px;
 }
 
 .hash2 {
   position: absolute;
-  margin-left: 187px;
-  margin-top: 187px;
+  margin-left: 190px;
+  margin-top: 150px;
 }
 
 .hash3 {
   position: absolute;
   margin-left: 180px;
-  margin-top: 187px;
+  margin-top: 140px;
+}
+
+.formsection {
+  display: grid;
+  grid-template-columns: min(320px);
+  margin-top: 16px;
+  background: #f9f9fa;
+}
+
+.getstarted {
+  position: absolute;
+  min-width: 249px;
+  height: 50px;
+  margin-left: 16px;
+  margin-top: 80px;
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.main {
+  position: absolute;
+  min-width: 288px;
+  height: 63px;
+  margin-left: 16px;
+  margin-top: 130px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+footer {
+  position: absolute;
+  min-width: 320px;
+  margin-top: 4500px;
+  margin-left: 0;
+  background: #1a2236;
+}
+
+.pa {
+  position: absolute;
+  min-width: 127px;
+  margin-left: 16px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+  margin-top: 30px;
+}
+
+.arrowbox {
+  position: absolute;
+  min-width: 22px;
+  left: 140px;
+  margin-top: 32px;
+}
+
+.socialmediaicons {
+  margin-top: 90px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form {
+  margin-top: 230px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.form form {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+form input {
+  min-width: 288px;
+  min-height: 52px;
+}
+
+form textarea {
+  min-width: 288px;
+  min-height: 112px;
+}
+
+form #submit {
+  color: #fff;
+  background: #1a2236;
+  cursor: pointer;
+}
+
+form #submit:hover {
+  border: 2px solid #00f;
 }
