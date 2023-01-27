@@ -70,6 +70,16 @@
     color: #1a2236;
   }
 
+  .button1ds {
+    transition: all 2s ease-out;
+  }
+
+  .button1ds:hover,
+  .button1ds:focus {
+    background-color: #00f;
+    color: #0ff;
+  }
+
   .contentds {
     position: absolute;
     min-width: 484px;
